@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-size: contain;
+    background-attachment: fixed;
+    background-image: url('background.jpg');
+}
+h1{
+    margin: 5%;
+    margin-top: 3%;
+    font-family: cursive;
+    text-align: center;
+    background: -webkit-linear-gradient(right, rgb(255, 0, 85) 15%, rgb(0, 255, 136));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#corpo{
+    position: relative;
+    border-radius: 30px;
+    left: calc(15% / 2);
+    width: 88%;
+    height: calc(min-height + 18%);
+    background-color: rgba(6, 178, 246, 0.438);
+}
+p{
+    font-size: 18px;
+    margin: 7%;
+    padding-top: 5%;
+}
+#texto2{
+    top: 2%;
+}
+#texto3, #texto4, #texto5{
+    position: relative;
+   
+}
+@media only screen and (min-width:768px){
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 24px;
+        padding: 2%;
+        margin: 0;
+        
+    }
+    #texto2{
+        top: -10vh;
+    }
+}
